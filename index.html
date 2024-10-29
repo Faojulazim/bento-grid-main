@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Bento grid</title>
+  </head>
+  <body
+    class="font-DMSans font-[500] px-4 py-7 flex justify-center items-center min-h-[100dvh]"
+  >
+    <div
+      class="grid gap-y-7 max-w-[600px] mx-auto lg:grid-cols-[repeat(4,minmax(50px,1fr))] lg:grid-rows-[repeat(6,100px)] lg:gap-x-7 lg:max-w-[1000px] lg:mx-auto"
+    >
+      <div
+        class="bg-Purple500 text-white text-center py-7 rounded-lg lg:row-[1_/_3] lg:col-[2_/_4] lg:place-content-center lg:py-0"
+      >
+        <h1 class="text-5xl w-[85%] mx-auto">
+          Social Media
+          <span class="text-yellow-500">10x</span> <i>Faster</i> with AI
+        </h1>
+        <img
+          class="max-w-[250px] mx-auto pt-5 pb-2"
+          src="assets/images/illustration-five-stars.webp"
+          alt=""
+        />
+        <p class="font-[400] text-Purple100">Over 4,000 5-star reviews</p>
+      </div>
+      <div
+        class="bg-white rounded-lg py-5 shadow-[1px_1px_20px_1px_rgba(0,0,0,0.09)] px-5 sm:px-7 sm:py-7 lg:row-[3_/_5] lg:overflow-hidden lg:py-0 lg:place-content-center lg:px-5"
+      >
+        <img
+          class="shadow-[0_5px_20px_0_rgba(0,0,0,0.04)] rounded-full w-full max-w-[270px] lg:w-[300px]"
+          src="assets/images/illustration-multiple-platforms.webp"
+          alt=""
+        />
+        <h1
+          class="text-2xl pt-4 leading-5 pb-2 w-[100%] sm:text-3xl sm:leading-6"
+        >
+          Manage multiple accounts and platforms.
+        </h1>
+      </div>
+      <div
+        class="px-4 bg-Yellow500 rounded-lg pt-4 overflow-hidden sm:px-7 sm:pt-7 lg:row-[3_/_5] lg:px-5 lg:pt-5"
+      >
+        <h1 class="text-2xl sm:text-3xl sm:leading-6 pb-5 leading-5 w-[90%]">
+          Maintain a consistent posting schedule.
+        </h1>
+        <img
+          class="mb-[-25px] w-full max-w-[250px] sm:max-w-[300px]"
+          src="assets/images/illustration-consistent-schedule.webp"
+          alt=""
+        />
+      </div>
+
+      <div
+        class="bg-Purple100 px-4 pt-10 pb-7 rounded-lg text-center sm:pt-7 lg:row-[1_/_5] lg:col-[4_/_4] lg:place-content-center lg:overflow-hidden"
+      >
+        <h1
+          class="text-2xl mx-auto pb-3 lg:pb-0 leading-[0] sm:text-3xl sm:leading-7 lg:text-start"
+        >
+          Schedule to social media.
+        </h1>
+        <img
+          class="py-5 w-full max-w-[300px] mx-auto lg:w-[250px] lg:mr-[-20px]"
+          src="assets/images/illustration-schedule-posts.webp"
+          alt=""
+        />
+        <p
+          class="text-lg font-[400] leading-5 max-w-[500px] mx-auto lg:text-start"
+        >
+          Optimize post timings to publish content at the perfect time for your
+          audience.
+        </p>
+      </div>
+
+      <div
+        class="bg-Purple500 rounded-lg pt-5 pb-2 px-4 sm:pt-0 sm:pt-7 sm:pb-7 lg:px-5 lg:row-[5_/_7] lg:col-[3_/_5] lg:place-content-center"
+      >
+        <div class="lg:flex lg:items-center lg:justify-between lg:gap-x-5">
+          <img
+            class="mx-auto w-full max-w-[300px] lg:max-w-[200px] lg:mx-0"
+            src="assets/images/illustration-grow-followers.webp"
+            alt=""
+          />
+          <h1
+            class="pt-10 lg:pt-0 lg:pb-0 text-3xl mx-auto pb-3 leading-7 text-white text-center w-[90%] sm:text-4xl sm:leading-7 lg:text-start lg:mx-0 lg:w-[270px]"
+          >
+            Grow followers with non-stop content.
+          </h1>
+        </div>
+      </div>
+
+      <div
+        class="bg-white rounded-lg py-7 shadow-[1px_1px_20px_1px_rgba(0,0,0,0.09)] sm:px-7 sm:py-7 lg:py-3 px-5 lg:row-[5_/_7] lg:col-[2_/_3] place-content-center"
+      >
+        <h1 class="text-5xl">>56%</h1>
+        <p class="pt-2 text-[1.1rem]">faster audience growth</p>
+        <img
+          class="w-full max-w-[200px] pt-4 lg:w-[150px]"
+          src="assets/images/illustration-audience-growth.webp"
+          alt=""
+        />
+      </div>
+
+      <div
+        class="bg-Yellow100 px-7 rounded-lg py-6 sm:py-7 lg:col-[1_/_2] lg:row-[1_/_4] lg:place-content-center"
+      >
+        <div class="">
+          <h1 class="text-[1.7rem] pb-3 leading-7 sm:text-[2rem] w-[95%]">
+            Create and schedule content <i class="text-Purple500">quicker.</i>
+          </h1>
+          <img
+            class="w-full max-w-[200px] pt-3"
+            src="assets/images/illustration-create-post.webp"
+            alt=""
+          />
+        </div>
+      </div>
+      <div
+        class="px-5 bg-Yellow500 py-5 rounded-lg sm:px-7 sm:py-7 lg:row-[4_/_7] lg:col-[1_/_2] lg:place-content-center"
+      >
+        <h1 class="text-[1.7rem] w-full pb-5 leading-6 sm:text-[2rem]">
+          Write your content using AI.
+        </h1>
+        <img
+          class="pt-1 w-full max-w-[300px]"
+          src="assets/images/illustration-ai-content.webp"
+          alt=""
+        />
+      </div>
+    </div>
+  </body>
+</html>
